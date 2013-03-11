@@ -1,3 +1,4 @@
 Ember.STRINGS = {
-	'hello': 'hola'
+	'splash page': 'página de bienvenida',
+	'login page': 'Ingresa página'
 }
