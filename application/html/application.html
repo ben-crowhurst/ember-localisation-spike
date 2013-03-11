@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Demo Ember-i18n example</title>
+    <link rel="stylesheet" href="../style/main.css" type="text/css" />
+    <script src="../script/library/jquery.js"></script>
+    <script src="../script/library/handlebars.js"></script>
+    <script src="../script/library/ember.js"></script>
+    <script src="../script/asset/strings.js"></script>
+    <script>
+      Application = Ember.Application.create({
+        LOG_TRANSITIONS: true,
+        LOG_BINDINGS: true
+      });
+
+      Application.deferUntilDOMReady();
+    </script>
+    <script src="../script/view/index.js"></script>
+    <script src="../script/view/login.js"></script>
+    <script src="../script/controller/login.js"></script>
+    <script src="../script/router/application.js"></script>
+  </head>
+  <body>
+    <script type="text/x-handlebars-template" data-template-name="application">
+      {{outlet}}
+    </script>
+  </body>
+</html>
