@@ -1,4 +1,4 @@
-Ember-Localisation Setup
+Ember Localisation Spike
 =================
 
 Example Ember project with localisation.
